@@ -1,0 +1,7 @@
+package com.qualizeal.javaapp.banking;
+
+public abstract class BankAccount {
+	public abstract void deposit();
+	public abstract void withdraw();
+
+}
