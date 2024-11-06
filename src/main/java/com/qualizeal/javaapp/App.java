@@ -1,5 +1,6 @@
 package com.qualizeal.javaapp;
 
+import com.qualizeal.javaapp.opearation5.SavingsAccount;
 import com.qualizeal.javaapp.operation.Cat;
 import com.qualizeal.javaapp.operation2.Circle;
 import com.qualizeal.javaapp.operation3.HRManager;
@@ -32,5 +33,10 @@ public class App {
 		car.fuelEfficiency();
 		car.distanceTravelled();
 		car.maximumSpeed();
+		
+		SavingsAccount savingsAccount = new SavingsAccount();
+		savingsAccount.deposit();
+		savingsAccount.withdraw();
+		
 	}
 }
